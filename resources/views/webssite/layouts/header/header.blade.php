@@ -15,8 +15,8 @@
                                 </span>
                                 <h4>{{ $item->hotel_name }}</h4>
                                 <h1>{{ $item->title_fr }}</h1>
-                                <div class="butn-light mt-30 mb-30"> <a href="{{ route('contact.controller') }}"
-                                        target="_blank"><span>Contactez &
+                                <div class="butn-light mt-30 mb-30"> <a
+                                        href="{{ route('contact.controller') }}"><span>Contactez -
                                             Nous</span></a> </div>
                             </div>
                         </div>

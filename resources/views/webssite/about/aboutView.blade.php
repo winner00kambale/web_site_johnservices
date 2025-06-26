@@ -20,7 +20,7 @@
                         <p>
                             <span style="font-size: 1.3em; color: #66b22a;">John Services Motel</span>
                             <br>
-                            <span class="font-size: 1.2em;">Est un établissement moderne qui allie confort, hospitalité et
+                            <span>Est un établissement moderne qui allie confort, hospitalité et
                                 fonctionnalité pour répondre aux
                                 besoins variés des voyageurs, professionnels et résidents.</span>
                         </p>
@@ -56,10 +56,10 @@
                     <p><span style="font-size: 1.3em; color: #66b22a;">Vision</span> <br>
                         Être une référence en matière d’accueil et de confort dans la ville de goma, en offrant une
                         expérience client inoubliable.</p>
-                    <p><span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">Mission</span> <br>
+                    <p><span style="font-size: 1.3em; color: #66b22a;">Mission</span> <br>
                         Offrir un service d’hébergement confortable, une restauration savoureuse et des salles de
                         réunion fonctionnelles, dans un cadre sécurisé et accueillant.</p>
-                    <p><span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">Nos valeurs</span> <br>
+                    <p><span style="font-size: 1.3em; color: #66b22a;">Nos valeurs</span> <br>
                         Professionnalisme,Hospitalité,Propreté,Sécurité et Écoute client.</p>
                 </div>
             </div>
