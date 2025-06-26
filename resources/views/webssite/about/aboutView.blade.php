@@ -36,7 +36,7 @@
                 @endif
             </div>
             <div class="row">
-                <div class="clo-md-6 animate-box" data-animate-effect="fadeInUp">
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInUp">
                     <p>
                         <span style="font-size: 1.3em; color: #66b22a;">Présentation
                             générale</span> <br>
@@ -53,7 +53,7 @@
                     </div>
 
                 </div>
-                <div class="clo-md-6 animate-box" data-animate-effect="fadeInUp">
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInUp">
                     <p><span style="font-size: 1.3em; color: #66b22a;">Vision</span> <br>
                         Être une référence en matière d’accueil et de confort dans la ville de goma, en offrant une
                         expérience client inoubliable.</p>
