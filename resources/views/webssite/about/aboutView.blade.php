@@ -57,16 +57,16 @@
                     <p><span style="font-size: 1.3em; color: #66b22a;">Vision</span> <br>
                         Être une référence en matière d’accueil et de confort dans la ville de goma, en offrant une
                         expérience client inoubliable.</p>
-                    <div class="col-md-3 animate-box" data-animate-effect="fadeInUp">
-                        <p><span style="font-size: 1.3em; color: #66b22a;">Vision</span> <br>
-                            Être une référence en matière d’accueil et de confort dans la ville de goma, en offrant une
-                            expérience client inoubliable.</p>
-                        <p><span style="font-size: 1.3em; color: #66b22a;">Mission</span> <br>
-                            Offrir un service d’hébergement confortable, une restauration savoureuse et des salles de
-                            réunion fonctionnelles, dans un cadre sécurisé et accueillant.</p>
-                        <p><span style="font-size: 1.3em; color: #66b22a;">Nos valeurs</span> <br>
-                            Professionnalisme,Hospitalité,Propreté,Sécurité et Écoute client.</p>
-                    </div>
+                </div>
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInUp">
+                    <p><span style="font-size: 1.3em; color: #66b22a;">Vision</span> <br>
+                        Être une référence en matière d’accueil et de confort dans la ville de goma, en offrant une
+                        expérience client inoubliable.</p>
+                    <p><span style="font-size: 1.3em; color: #66b22a;">Mission</span> <br>
+                        Offrir un service d’hébergement confortable, une restauration savoureuse et des salles de
+                        réunion fonctionnelles, dans un cadre sécurisé et accueillant.</p>
+                    <p><span style="font-size: 1.3em; color: #66b22a;">Nos valeurs</span> <br>
+                        Professionnalisme,Hospitalité,Propreté,Sécurité et Écoute client.</p>
                 </div>
             </div>
     </section>
