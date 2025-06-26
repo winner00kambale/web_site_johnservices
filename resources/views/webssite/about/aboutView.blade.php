@@ -18,7 +18,8 @@
                         <div class="section-title">{{ $phone->title_fr }}</div>
                         {{-- <p>{{ $phone->short_description_fr }}</p> --}}
                         <p>
-                            <span>1. John Services Motel</span> <br>
+                            <span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">John Services Motel</span>
+                            <br>
                             Est un établissement moderne qui allie confort, hospitalité et fonctionnalité pour répondre aux
                             besoins variés des voyageurs, professionnels et résidents.
                         </p>
