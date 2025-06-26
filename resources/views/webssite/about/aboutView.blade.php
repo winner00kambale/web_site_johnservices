@@ -24,21 +24,8 @@
                                 fonctionnalité pour répondre aux
                                 besoins variés des voyageurs, professionnels et résidents.</span>
                         </p>
-                        <p>
-                            <span style="font-size: 1.3em; color: #66b22a;">Présentation
-                                générale</span> <br>
-                            Situé à Goma, dans le quartier les volcans sur l'avenue les messagers N13-B en diagonale de
-                            l'ecobank. JohnServicesMotel propose un hébergement de qualité, un service de restauration
-                            soigné et des salles de réunion bien équipées. Que ce soit pour un séjour de détente, un voyage
-                            d’affaires ou une rencontre professionnelle, nous offrons un cadre agréable, sécurisé et adapté.
-                        </p>
                         <!-- call -->
-                        <div class="reservations">
-                            <div class="icon"><span class="flaticon-call"></span></div>
-                            <div class="text">
-                                <p>Reservation</p> <a href="tel:{{ $phone->phone }}">{{ $phone->phone }}</a>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp">
                         <img src="storage/{{ $phone->image1 }}" alt="" class="mt-90 mb-30">
@@ -50,6 +37,20 @@
             </div>
             <div class="row">
                 <div class="clo-md-6 animate-box" data-animate-effect="fadeInUp">
+                    <p>
+                        <span style="font-size: 1.3em; color: #66b22a;">Présentation
+                            générale</span> <br>
+                        Situé à Goma, dans le quartier les volcans sur l'avenue les messagers N13-B en diagonale de
+                        l'ecobank. JohnServicesMotel propose un hébergement de qualité, un service de restauration
+                        soigné et des salles de réunion bien équipées. Que ce soit pour un séjour de détente, un voyage
+                        d’affaires ou une rencontre professionnelle, nous offrons un cadre agréable, sécurisé et adapté.
+                    </p>
+                    <div class="reservations">
+                        <div class="icon"><span class="flaticon-call"></span></div>
+                        <div class="text">
+                            <p>Reservation</p> <a href="tel:{{ $phone->phone }}">{{ $phone->phone }}</a>
+                        </div>
+                    </div>
 
                 </div>
                 <div class="clo-md-6 animate-box" data-animate-effect="fadeInUp">
