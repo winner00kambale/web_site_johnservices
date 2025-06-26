@@ -32,14 +32,6 @@
                             soigné et des salles de réunion bien équipées. Que ce soit pour un séjour de détente, un voyage
                             d’affaires ou une rencontre professionnelle, nous offrons un cadre agréable, sécurisé et adapté.
                         </p>
-                        <p><span style="font-size: 1.3em; color: #66b22a;">Vision</span> <br>
-                            Être une référence en matière d’accueil et de confort dans la ville de goma, en offrant une
-                            expérience client inoubliable.</p>
-                        <p><span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">Mission</span> <br>
-                            Offrir un service d’hébergement confortable, une restauration savoureuse et des salles de
-                            réunion fonctionnelles, dans un cadre sécurisé et accueillant.</p>
-                        <p><span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">Nos valeurs</span> <br>
-                            Professionnalisme,Hospitalité,Propreté,Sécurité et Écoute client.</p>
                         <!-- call -->
                         <div class="reservations">
                             <div class="icon"><span class="flaticon-call"></span></div>
@@ -55,6 +47,21 @@
                         <img src="storage/{{ $phone->image2 }}" alt="">
                     </div>
                 @endif
+            </div>
+            <div class="row">
+                <div class="clo-md-6 animate-box" data-animate-effect="fadeInUp">
+
+                </div>
+                <div class="clo-md-6 animate-box" data-animate-effect="fadeInUp">
+                    <p><span style="font-size: 1.3em; color: #66b22a;">Vision</span> <br>
+                        Être une référence en matière d’accueil et de confort dans la ville de goma, en offrant une
+                        expérience client inoubliable.</p>
+                    <p><span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">Mission</span> <br>
+                        Offrir un service d’hébergement confortable, une restauration savoureuse et des salles de
+                        réunion fonctionnelles, dans un cadre sécurisé et accueillant.</p>
+                    <p><span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">Nos valeurs</span> <br>
+                        Professionnalisme,Hospitalité,Propreté,Sécurité et Écoute client.</p>
+                </div>
             </div>
         </div>
     </section>
