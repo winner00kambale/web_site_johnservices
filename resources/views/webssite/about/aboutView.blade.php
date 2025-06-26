@@ -18,21 +18,21 @@
                         <div class="section-title">{{ $phone->title_fr }}</div>
                         {{-- <p>{{ $phone->short_description_fr }}</p> --}}
                         <p>
-                            <span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">John Services Motel</span>
+                            <span style="font-size: 1.3em; color: #66b22a;">John Services Motel</span>
                             <br>
-                            <span class="font-size: 1.3em;">Est un établissement moderne qui allie confort, hospitalité et
+                            <span class="font-size: 1.2em;">Est un établissement moderne qui allie confort, hospitalité et
                                 fonctionnalité pour répondre aux
                                 besoins variés des voyageurs, professionnels et résidents.</span>
                         </p>
                         <p>
-                            <span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">Présentation
+                            <span style="font-size: 1.3em; color: #66b22a;">Présentation
                                 générale</span> <br>
-                            Situé à Goma, dans le quartier les volcans sur l'avenue les messages N13-B en diagonale de
-                            l'ecobank, JohnServicesMotel propose un hébergement de qualité, un service de restauration
+                            Situé à Goma, dans le quartier les volcans sur l'avenue les messagers N13-B en diagonale de
+                            l'ecobank. JohnServicesMotel propose un hébergement de qualité, un service de restauration
                             soigné et des salles de réunion bien équipées. Que ce soit pour un séjour de détente, un voyage
                             d’affaires ou une rencontre professionnelle, nous offrons un cadre agréable, sécurisé et adapté.
                         </p>
-                        <p><span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">Vision</span> <br>
+                        <p><span style="font-size: 1.3em; color: #66b22a;">Vision</span> <br>
                             Être une référence en matière d’accueil et de confort dans la ville de goma, en offrant une
                             expérience client inoubliable.</p>
                         <p><span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">Mission</span> <br>
