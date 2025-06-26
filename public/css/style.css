@@ -1071,7 +1071,7 @@ color: #66b22a;
         background-color: transparent;
     }
     .nav-scroll .logo-img {
-        width: 160px;
+        width: 50px;
     }
     .navbar .logo {
         text-align: left;
@@ -1080,7 +1080,7 @@ color: #66b22a;
     .nav-scroll .logo {}
     .logo-img {
         margin-bottom: 0px;
-        width: 160px;
+        width: 50px;
         padding: 0;
     }
     .navbar button {
