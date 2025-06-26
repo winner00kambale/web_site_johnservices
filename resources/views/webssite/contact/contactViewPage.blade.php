@@ -12,5 +12,4 @@
         </div>
     </div>
     @include('webssite.contact.contact')
-    {{-- @include('webssite.partennaire.partennaire') --}}
 @endsection

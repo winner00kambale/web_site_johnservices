@@ -25,8 +25,7 @@
             </div>
             <div class="col-md-5 mb-30 offset-md-1">
                 <h3>Get in touch</h3>
-                <form method="post" class="contact__form"
-                    action="https://duruthemes.com/demo/html/cappa/demo1-light/mail.php">
+                <form method="post" class="contact__form" action="#">
                     <!-- form message -->
                     <div class="row">
                         <div class="col-12">
@@ -52,7 +51,7 @@
                             <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
                         </div>
                         <div class="col-md-12">
-                            <button type="submit" class="butn-dark2"><span>Send Message</span></button>
+                            <button type="submit" class="butn-dark2"><span>Envoyez Message</span></button>
                         </div>
                     </div>
                 </form>
