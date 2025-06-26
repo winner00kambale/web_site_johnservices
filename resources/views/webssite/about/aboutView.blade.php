@@ -20,23 +20,25 @@
                         <p>
                             <span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">John Services Motel</span>
                             <br>
-                            Est un établissement moderne qui allie confort, hospitalité et fonctionnalité pour répondre aux
-                            besoins variés des voyageurs, professionnels et résidents.
+                            <span class="font-size: 1.3em;">Est un établissement moderne qui allie confort, hospitalité et
+                                fonctionnalité pour répondre aux
+                                besoins variés des voyageurs, professionnels et résidents.</span>
                         </p>
                         <p>
-                            <span>2. Présentation générale</span> <br>
+                            <span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">Présentation
+                                générale</span> <br>
                             Situé à Goma, dans le quartier les volcans sur l'avenue les messages N13-B en diagonale de
                             l'ecobank, JohnServicesMotel propose un hébergement de qualité, un service de restauration
                             soigné et des salles de réunion bien équipées. Que ce soit pour un séjour de détente, un voyage
                             d’affaires ou une rencontre professionnelle, nous offrons un cadre agréable, sécurisé et adapté.
                         </p>
-                        <p><span>3. Vision</span> <br>
+                        <p><span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">Vision</span> <br>
                             Être une référence en matière d’accueil et de confort dans la ville de goma, en offrant une
                             expérience client inoubliable.</p>
-                        <p><span>4. Mission</span> <br>
+                        <p><span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">Mission</span> <br>
                             Offrir un service d’hébergement confortable, une restauration savoureuse et des salles de
                             réunion fonctionnelles, dans un cadre sécurisé et accueillant.</p>
-                        <p><span>5. Nos valeurs</span> <br>
+                        <p><span style="font-weight: bold; font-size: 1.3em; color: #66b22a;">Nos valeurs</span> <br>
                             Professionnalisme,Hospitalité,Propreté,Sécurité et Écoute client.</p>
                         <!-- call -->
                         <div class="reservations">
