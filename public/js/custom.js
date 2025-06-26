@@ -47,18 +47,18 @@ $(function () {
     
     
     // Navbar scrolling background
-    wind.on("scroll", function () {
-        var bodyScroll = wind.scrollTop(),
-            navbar = $(".navbar"),
-            logo = $(".navbar .logo> img");
-        if (bodyScroll > 100) {
-            navbar.addClass("nav-scroll");
-            logo.attr('src', 'img/logo.png');
-        } else {
-            navbar.removeClass("nav-scroll");
-            logo.attr('src', 'img/logo.png');
-        }
-    });
+    // wind.on("scroll", function () {
+    //     var bodyScroll = wind.scrollTop(),
+    //         navbar = $(".navbar"),
+    //         logo = $(".navbar .logo> img");
+    //     if (bodyScroll > 100) {
+    //         navbar.addClass("nav-scroll");
+    //         logo.attr('src', 'img/logo.png');
+    //     } else {
+    //         navbar.removeClass("nav-scroll");
+    //         logo.attr('src', 'img/logo.png');
+    //     }
+    // });
     
     
     // Close navbar-collapse when a  clicked
