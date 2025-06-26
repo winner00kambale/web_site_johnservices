@@ -16,7 +16,27 @@
                         </span>
                         <div class="section-subtitle">{{ $phone->Hotel_name }}</div>
                         <div class="section-title">{{ $phone->title_fr }}</div>
-                        <p>{{ $phone->short_description_fr }}</p>
+                        {{-- <p>{{ $phone->short_description_fr }}</p> --}}
+                        <p>
+                            <span>1. John Services Motel</span> <br>
+                            Est un établissement moderne qui allie confort, hospitalité et fonctionnalité pour répondre aux
+                            besoins variés des voyageurs, professionnels et résidents.
+                        </p>
+                        <p>
+                            <span>2. Présentation générale</span> <br>
+                            Situé à Goma, dans le quartier les volcans sur l'avenue les messages N13-B en diagonale de
+                            l'ecobank, JohnServicesMotel propose un hébergement de qualité, un service de restauration
+                            soigné et des salles de réunion bien équipées. Que ce soit pour un séjour de détente, un voyage
+                            d’affaires ou une rencontre professionnelle, nous offrons un cadre agréable, sécurisé et adapté.
+                        </p>
+                        <p><span>3. Vision</span> <br>
+                            Être une référence en matière d’accueil et de confort dans la ville de goma, en offrant une
+                            expérience client inoubliable.</p>
+                        <p><span>4. Mission</span> <br>
+                            Offrir un service d’hébergement confortable, une restauration savoureuse et des salles de
+                            réunion fonctionnelles, dans un cadre sécurisé et accueillant.</p>
+                        <p><span>5. Nos valeurs</span> <br>
+                            Professionnalisme,Hospitalité,Propreté,Sécurité et Écoute client.</p>
                         <!-- call -->
                         <div class="reservations">
                             <div class="icon"><span class="flaticon-call"></span></div>

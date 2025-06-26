@@ -15,7 +15,7 @@
                                 </span>
                                 <h4>{{ $item->hotel_name }}</h4>
                                 <h1>{{ $item->title_fr }}</h1>
-                                <div class="butn-light mt-30 mb-30"> <a href="https://wa.me/243997163443"
+                                <div class="butn-light mt-30 mb-30"> <a href="{{ route('contact.controller') }}"
                                         target="_blank"><span>Contactez &
                                             Nous</span></a> </div>
                             </div>
