@@ -32,8 +32,13 @@
                                     </div>
                                     <div class="col-md-4">
                                         <ul>
-                                            <li><i class="flaticon-bed"></i> Lit jumeau</li>
+                                            <li><i class="flaticon-bed"></i> Lit double</li>
                                             <li><i class="flaticon-breakfast"></i> Petit-déjeuner</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul>
+                                            <li><i class="flaticon-tv"></i> Lit double</li>
                                         </ul>
                                     </div>
                                 </div>
