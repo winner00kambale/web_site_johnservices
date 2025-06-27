@@ -38,7 +38,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <ul>
-                                            <li><i class="flaticon-tv"></i> Lit double</li>
+                                            <li><i class="flaticon-television"></i> TV</li>
                                         </ul>
                                     </div>
                                 </div>
