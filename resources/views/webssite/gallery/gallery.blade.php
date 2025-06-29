@@ -10,14 +10,13 @@
                 <div class="col-md-4 gallery-item mb-4">
                     <a href="{{ asset('storage/' . $item->image) }}" class="img-zoom d-block">
                         <div class="gallery-box">
-                            <div class="gallery-img fixed-size">
+                            <div class="gallery-img">
                                 <img src="{{ asset('storage/' . $item->image) }}" alt="work-img">
                             </div>
                         </div>
                     </a>
                 </div>
             @endforeach
-
         </div>
     </div>
 </section>
