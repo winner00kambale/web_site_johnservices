@@ -3311,6 +3311,24 @@ hr {
 .gallery-box:hover .gallery-img > img {
     transform: scale(1.05);
 }
+
+/* Boîte contenant l’image : taille fixe */
+.gallery-img.fixed-size {
+    width: 100%;
+    max-width: 100%;        /* s’adapte au col-md-4 (≈ 1/3 de container) */
+    height: 240px;          /* ✅ fixe la hauteur identique pour toutes les images */
+    overflow: hidden;
+    position: relative;
+}
+
+/* Image à l’intérieur : remplit sans se déformer */
+.gallery-img.fixed-size img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      /* ✅ remplissage sans déformation */
+    display: block;
+}
+
 /* magnific popup custom */
 .mfp-figure button {
     border: 0px solid transparent;
