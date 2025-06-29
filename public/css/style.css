@@ -5477,5 +5477,19 @@ select {
     object-fit: cover;
 } */
 
+.img-wrapper1 {
+    width: 100%;
+    height: 250px; /* ✅ Hauteur uniforme */
+    overflow: hidden;
+    border-radius: 8px; /* optionnel pour l'arrondi */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* ombre douce */
+}
+
+.img-wrapper1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ✅ Remplit la boîte sans déformer */
+    display: block;
+}
 
 
