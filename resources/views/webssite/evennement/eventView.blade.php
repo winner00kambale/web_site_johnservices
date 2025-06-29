@@ -22,8 +22,8 @@
                 @endphp
                 <div class="col-md-4 mb-30">
                     <div class="item">
-                        <div class="position-re o-hidden image-container"> <img
-                                src="{{ asset('storage/' . $item->image) }}" alt="" class="uniform-image">
+                        <div class="position-re o-hidden"> <img src="{{ asset('storage/' . $item->image) }}"
+                                alt="">
                             <div class="date">
                                 <a href="#"> <span>{{ $date->format('M') }}</span>
                                     <i>{{ $date->format('d') }}</i> </a>

@@ -3245,21 +3245,7 @@ hr {
 .gallery-box .gallery-img {
     position: relative;
     overflow: hidden;
-
-    width: 100%;
-    max-width: 512px;           /* ou fixe selon besoin */
-    aspect-ratio: 512 / 363;    /* garde le même format que ton image */
-    height: auto;
 }
-.gallery-box .gallery-img > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;  /* remplit la boîte sans déformation */
-    transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
-    border-radius: 0;
-    display: block;
-}
-
 .gallery-box .gallery-img:after {
     content: " ";
     display: block;
@@ -3271,10 +3257,10 @@ hr {
     border-radius: 0px;
     transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
 }
-/* .gallery-box .gallery-img > img {
+.gallery-box .gallery-img > img {
     transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
     border-radius: 0;
-} */
+}
 .gallery-box .gallery-detail {
     opacity: 0;
     color: #FFF;
@@ -3282,36 +3268,35 @@ hr {
     padding: 20px;
     box-sizing: border-box;
     position: absolute;
-left: 0;
-overflow: hidden;
-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+    left: 0;
+    overflow: hidden;
+    transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
 }
 .gallery-box .gallery-detail h4 {
-font-size: 18px;
+    font-size: 18px;
 }
 .gallery-box .gallery-detail p {
-color: Rgba(0, 0, 0, 0.4);
-font-size: 14px;
+    color: Rgba(0, 0, 0, 0.4);
+    font-size: 14px;
 }
 .gallery-box .gallery-detail i {
-color: #222;
-padding: 8px;
+    color: #222;
+    padding: 8px;
 }
 .gallery-box .gallery-detail i:hover {
-color: #222;
+    color: #222;
 }
 .gallery-box:hover .gallery-detail {
-top: 50%;
-transform: translate(0, -50%);
-opacity: 1;
+    top: 50%;
+    transform: translate(0, -50%);
+    opacity: 1;
 }
 .gallery-box:hover .gallery-img:after {
-background: rgba(0,0,0, 0.2);
+    background: rgba(0,0,0, 0.2);
 }
 .gallery-box:hover .gallery-img > img {
-transform: scale(1.05);
+    transform: scale(1.05);
 }
-
 /* magnific popup custom */
 .mfp-figure button {
     border: 0px solid transparent;
@@ -5463,6 +5448,5 @@ select {
     color: #66b22a;
     text-decoration: underline;
 }
-
 
 

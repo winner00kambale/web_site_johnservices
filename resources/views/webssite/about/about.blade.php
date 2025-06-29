@@ -32,9 +32,8 @@
                 <div class="row justify-content-center g-3">
                     @foreach ($gallery as $item)
                         <div class="col-12 col-sm-6 col-md-4">
-                            <div class="image-box">
-                                <img src="{{ asset('storage/' . $item->image) }}" alt="Image">
-                            </div>
+                            <img src="{{ asset('storage/' . $item->image) }}" alt="Image"
+                                class="img-fluid rounded shadow-sm">
                         </div>
                     @endforeach
                 </div>
