@@ -32,7 +32,7 @@
                 <div class="row justify-content-center g-3">
                     @foreach ($gallery as $item)
                         <div class="col-12 col-sm-6 col-md-4">
-                            <div class="img-wrapper1">
+                            <div class="image-box">
                                 <img src="{{ asset('storage/' . $item->image) }}" alt="Image">
                             </div>
                         </div>

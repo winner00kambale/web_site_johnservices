@@ -1,4 +1,4 @@
-{{-- <section class="section-padding">
+<section class="section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -16,30 +16,6 @@
                     </a>
                 </div>
             @endforeach
-        </div>
-    </div>
-</section> --}}
-<section class="section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-subtitle">Images</div>
-                <div class="section-title">Images Gallerie</div>
-            </div>
-
-            @foreach ($gallery as $item)
-                <div class="col-md-4 gallery-item">
-                    <a href="{{ asset('storage/' . $item->image) }}" title="" class="img-zoom">
-                        <div class="gallery-box">
-                            <div class="gallery-img img-wrapper1"> <!-- ✅ Ajoute la classe ici -->
-                                <img src="{{ asset('storage/' . $item->image) }}" class="d-block" alt="work-img">
-                                <!-- ✅ Enlève img-fluid -->
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            @endforeach
-
         </div>
     </div>
 </section>
