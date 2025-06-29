@@ -5450,8 +5450,8 @@ select {
 }
 
 .image-container {
-    width: 100%;          /* ou fixe comme 300px */
-    height: 250px;        /* hauteur fixe pour toutes les images */
+    width: 100%;
+    aspect-ratio: 512 / 363;
     overflow: hidden;
     position: relative;
 }
@@ -5459,8 +5459,8 @@ select {
 .uniform-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;    /* coupe l'image proprement si elle dépasse */
-    display: block;
+    object-fit: cover;
 }
+
 
 
