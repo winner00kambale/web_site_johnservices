@@ -3245,7 +3245,21 @@ hr {
 .gallery-box .gallery-img {
     position: relative;
     overflow: hidden;
+
+    width: 100%;
+    max-width: 512px;           /* ou fixe selon besoin */
+    aspect-ratio: 512 / 363;    /* garde le même format que ton image */
+    height: auto;
 }
+.gallery-box .gallery-img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* remplit la boîte sans déformation */
+    transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+    border-radius: 0;
+    display: block;
+}
+
 .gallery-box .gallery-img:after {
     content: " ";
     display: block;
@@ -5449,7 +5463,7 @@ select {
     text-decoration: underline;
 }
 
-.image-container {
+/* .image-container {
     width: 100%;
     aspect-ratio: 512 / 363;
     overflow: hidden;
@@ -5460,7 +5474,7 @@ select {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 
 
 
