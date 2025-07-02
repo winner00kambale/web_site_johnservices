@@ -49,6 +49,7 @@ Route::controller(AboutController::class)->group(function () {
     Route::post('/createAbout', 'storeAbout');
     Route::post('/updateAbout/{id}', 'updateAbout');
     Route::delete('/deleteAbout/{id}', 'deleteAbout');
+    Route::get('getCountgetDashboard', 'getCountgetDashboard');
 });
 
 Route::controller(SlideController::class)->group(function () {
