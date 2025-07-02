@@ -4,6 +4,10 @@ namespace App\Http\Controllers\About;
 
 use App\Http\Controllers\Controller;
 use App\Models\About;
+use App\Models\Contact;
+use App\Models\News;
+use App\Models\Partenaire;
+use App\Models\Temoignage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
@@ -316,6 +320,25 @@ class AboutController extends Controller
             'data' => $data
         ];
         return response()->json($result);
+    }
+    public function getCountgetDashboard()
+    {
+        $contact = Contact::count();
+        $event = News::count();
+        $temoignage = Temoignage::count();
+        $projets = Partenaire::count();
+
+        $result = [
+            'message' => "success",
+            'success' => true,
+            'status' => 200,
+            'contact' => $contact,
+            'events' => $event,
+            'temoiges' => $temoignage,
+            'project' => $projets
+        ];
+        return response()->json($result);
+
     }
 
 }
