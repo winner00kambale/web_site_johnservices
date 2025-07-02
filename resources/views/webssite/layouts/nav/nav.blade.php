@@ -7,11 +7,11 @@
         {{-- <div class="logo-wrapper">
             <a class="logo1" href="{{ '/' }}"> <img src="{{ asset('img/logo.png') }}" alt=""> </a>
         </div> --}}
-        {{-- <div class="logo-wrapper">
+        <div class="logo-wrapper">
             <a class="logo1" href="{{ '/' }}">
                 <img src="{{ asset('img/logo.png') }}" alt="Logo" class="logo-img1">
             </a>
-        </div> --}}
+        </div>
 
         <!-- Button -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"

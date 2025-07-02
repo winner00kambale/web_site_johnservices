@@ -19,7 +19,7 @@
 
 .logo-wrapper {
     display: flex;
-    align-items: center;
+    align-items: left;
     height: 70px; /* Ajuste la hauteur selon ton design */
 }
 
