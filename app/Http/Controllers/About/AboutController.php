@@ -332,7 +332,7 @@ class AboutController extends Controller
             'message' => "success",
             'success' => true,
             'status' => 200,
-            'contact' => $contact,
+            'contacts' => $contact,
             'events' => $event,
             'temoiges' => $temoignage,
             'project' => $projets
