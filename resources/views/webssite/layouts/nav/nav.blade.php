@@ -10,7 +10,7 @@
         <div class="logo-wrapper">
             <a class="logo1" href="{{ '/' }}">
                 <img src="{{ asset('img/logo.png') }}" alt="Logo" class="logo-img1"
-                    style="max-height: 120px; width: auto; object-fit: contain; transition: transform 0.3s ease;">
+                    style="max-height: 110px; width: auto; object-fit: contain; transition: transform 0.3s ease;">
             </a>
         </div>
 
