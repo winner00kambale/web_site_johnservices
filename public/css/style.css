@@ -893,12 +893,12 @@ color: #66b22a;
     padding: 15px 0;
     color: #fff;
 }
-.nav-scroll .logo-img {
+/* .nav-scroll .logo-img {
     width: 30px;
 }
 .nav-scroll .logo-img {
     margin-bottom: 0px;
-}
+} */
 .nav-scroll .logo-wrapper .logo h2 {
     font-family: 'Gilda Display', serif;
     font-size: 27px;
