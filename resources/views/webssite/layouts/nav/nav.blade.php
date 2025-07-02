@@ -5,7 +5,7 @@
     @media (max-width: 768px) {
         .logo-wrapper img {
             max-height: 60px !important;
-            margin-top: -2px !important;
+            margin-top: -5px !important;
         }
     }
 </style>
