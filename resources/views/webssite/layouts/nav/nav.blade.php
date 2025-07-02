@@ -4,7 +4,7 @@
 <style>
     @media (max-width: 768px) {
         .logo-wrapper img {
-            max-height: 45px !important;
+            max-height: 60px !important;
             margin-top: -2px !important;
         }
     }
