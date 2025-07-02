@@ -28,7 +28,7 @@ class MenuController extends Controller
     public function getMenuData()
     {
         $data = MenuRestau::join('categories', 'categories.id', '=', 'menu_restaus.category_id')
-            ->select('menu_restaus.*', 'categories.designation_en', 'categories.designation_fr')->get();
+            ->select('menu_restaus.*', 'categories.designation_en', 'categories.designation_fr as category')->get();
         $result = [
             'message' => 'success',
             'success' => true,
