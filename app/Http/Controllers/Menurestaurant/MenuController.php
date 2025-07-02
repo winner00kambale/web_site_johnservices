@@ -195,4 +195,19 @@ class MenuController extends Controller
             'status' => 200
         ], 200);
     }
+
+    public function deleteMenu($id)
+    {
+        $data = MenuRestau::find($id);
+        if (!$data) {
+            return response()->json(['message' => 'data not found'], 404);
+        }
+        $data->delete();
+
+        return response()->json([
+            'message' => "deleted successfully",
+            'success' => true,
+            'status' => 200
+        ]);
+    }
 }

@@ -103,6 +103,7 @@ Route::controller(MenuController::class)->group(function () {
     Route::post('/createMenu', 'createMenu');
     Route::put('/updateMenu/{id}', 'updateMenu');
     Route::get('/getMenuRestauByCategory/{id?}', 'getMenuRestauByCategory');
+    Route::delete('/deleteMenu', 'deleteMenu');
 });
 Route::controller(ContactController::class)->group(function () {
     Route::get('/getAllContactData', 'getContact');
