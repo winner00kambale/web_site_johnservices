@@ -16,3 +16,22 @@
     object-fit: cover; /* ✅ remplissage propre */
     display: block;
 }
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    height: 70px; /* Ajuste la hauteur selon ton design */
+}
+
+.logo-wrapper .logo-img1 {
+    height: 100%;
+    max-height: 60px; /* Limite la taille du logo */
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+@media (max-width: 768px) {
+    .logo-wrapper .logo-img {
+        max-height: 45px;
+    }
+}
