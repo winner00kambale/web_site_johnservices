@@ -17,7 +17,6 @@ return new class extends Migration {
             $table->text('fonction_fr')->nullable();
             $table->text('description_en');
             $table->text('description_fr');
-            $table->string('image')->nullable();
             $table->timestamps();
         });
     }

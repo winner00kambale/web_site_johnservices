@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Temoignage;
 use App\Http\Controllers\Controller;
 use App\Models\Temoignage;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 
 class TemoignageController extends Controller
@@ -51,13 +50,12 @@ class TemoignageController extends Controller
      *    required=true,
      *    description="Enregistrer",
      *    @OA\JsonContent(
-     *       required={"name","fonction_en","fonction_fr","description_en","description_fr","image"},
+     *       required={"name","fonction_en","fonction_fr","description_en","description_fr"},
      *       @OA\Property(property="name", type="string", format="text",example="winner kambale"),
      *       @OA\Property(property="fonction_en", type="string", format="text",example="rdc"),
      *       @OA\Property(property="fonction_fr", type="string", format="text",example="mpesa"),
      *       @OA\Property(property="description_en", type="string", format="text",example="2024-09-19"),  
-     *       @OA\Property(property="description_fr", type="string", format="text", example="winner@gmail.com"),
-     *       @OA\Property(property="image", type="string", format="text", example="winner")
+     *       @OA\Property(property="description_fr", type="string", format="text", example="winner@gmail.com")
      *    ),
      * ),
      * @OA\Response(
@@ -77,8 +75,7 @@ class TemoignageController extends Controller
             'fonction_en' => 'nullable',
             'fonction_fr' => 'nullable',
             'description_en' => 'required',
-            'description_fr' => 'required',
-            'image' => 'nullable'
+            'description_fr' => 'required'
         ]);
         if ($validator->fails()) {
             return response()->json([
@@ -86,19 +83,12 @@ class TemoignageController extends Controller
                 'errors' => $validator->errors()
             ], 422);
         }
-
-        if ($request->hasFile('image')) {
-            $file = $request->file('image');
-            $path = $file->store('images/Temoignage', 'public');
-        }
-
         Temoignage::create([
             'name' => $request->name,
             'fonction_en' => $request->fonction_en,
             'fonction_fr' => $request->fonction_fr,
             'description_en' => $request->description_en,
-            'description_fr' => $request->description_fr,
-            'image' => $path
+            'description_fr' => $request->description_fr
         ]);
         $result = [
             'message' => "success",
@@ -125,13 +115,12 @@ class TemoignageController extends Controller
      *    required=false,
      *    description="Modifier",
      *    @OA\JsonContent(
-     *       required={"name","fonction_en","fonction_fr","description_en","description_fr","image"},
+     *       required={"name","fonction_en","fonction_fr","description_en","description_fr"},
      *       @OA\Property(property="name", type="string", format="text",example="winner kambale"),
      *       @OA\Property(property="fonction_en", type="string", format="text",example="rdc"),
      *       @OA\Property(property="fonction_fr", type="string", format="text",example="mpesa"),
      *       @OA\Property(property="description_en", type="string", format="text",example="2024-09-19"),  
-     *       @OA\Property(property="description_fr", type="string", format="text", example="winner@gmail.com"),
-     *       @OA\Property(property="image", type="string", format="text", example="winner")
+     *       @OA\Property(property="description_fr", type="string", format="text", example="winner@gmail.com")
      *    ),
      * ),
      * @OA\Response(
@@ -161,8 +150,7 @@ class TemoignageController extends Controller
             'fonction_en' => 'nullable',
             'fonction_fr' => 'nullable',
             'description_en' => 'required',
-            'description_fr' => 'required',
-            'image' => 'nullable'
+            'description_fr' => 'required'
         ]);
         if ($validator->fails()) {
             return response()->json([
@@ -170,22 +158,13 @@ class TemoignageController extends Controller
                 'errors' => $validator->errors()
             ], 422);
         }
-        if ($request->hasFile('image')) {
-            Storage::disk('public')->delete($temoignage->image);
-
-            $file = $request->file('image');
-            $path = $file->store('images/Temoignage', 'public');
-        } else {
-            $path = $temoignage->image;
-        }
 
         $temoignage->update([
             'name' => $request->name,
             'fonction_en' => $request->fonction_en,
             'fonction_fr' => $request->fonction_fr,
             'description_en' => $request->description_en,
-            'description_fr' => $request->description_fr,
-            'image' => $path
+            'description_fr' => $request->description_fr
         ]);
 
         $result = [

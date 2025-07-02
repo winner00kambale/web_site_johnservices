@@ -13,7 +13,6 @@ class Temoignage extends Model
         'fonction_en',
         'fonction_fr',
         'description_en',
-        'description_fr',
-        'image'
+        'description_fr'
     ];
 }
