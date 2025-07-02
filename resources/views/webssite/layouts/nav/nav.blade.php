@@ -5,7 +5,7 @@
     <div class="container">
         <!-- Logo -->
         <div class="logo-wrapper">
-            <a class="logo" href="{{ '/' }}"> <img src="{{ asset('img/logo.png') }}" alt=""> </a>
+            <a class="logo1" href="{{ '/' }}"> <img src="{{ asset('img/logo.png') }}" alt=""> </a>
         </div>
         <!-- Button -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
