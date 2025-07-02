@@ -138,7 +138,7 @@ Route::controller(NewsController::class)->group(function () {
     Route::post('/updateNews/{id}', 'updateNews');
     Route::get('/getNewsData', 'getNewsData');
     Route::get('/getEventsById/{id}', 'getEventsById');
-    Route::delete('/DeleteNews', 'DeleteNews');
+    Route::delete('/deleteNews', 'DeleteNews');
 });
 
 Route::controller(TemoignageController::class)->group(function () {
