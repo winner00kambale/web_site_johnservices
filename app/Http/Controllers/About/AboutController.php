@@ -192,7 +192,7 @@ class AboutController extends Controller
         }
 
         $validator = Validator::make($request->all(), [
-            'Hotel_name' => 'required',
+            'Hotel_name' => 'nullable',
             'title_en' => 'required',
             'title_fr' => 'required',
             'short_description_en' => 'required',
@@ -203,8 +203,8 @@ class AboutController extends Controller
             'linkedin' => 'nullable',
             'twitter' => 'nullable',
             'youtube' => 'nullable',
-            'email' => 'required',
-            'phone' => 'required',
+            'email' => 'nullable',
+            'phone' => 'nullable',
             'image1' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'image2' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'
         ]);
