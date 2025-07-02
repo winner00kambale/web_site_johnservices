@@ -235,4 +235,21 @@ class NewsController extends Controller
         ];
         return response()->json($result);
     }
+
+    public function DeleteNews($id)
+    {
+        $data = News::find($id);
+        if (!$data) {
+            return response()->json(['message' => 'data not found'], 404);
+        }
+        Storage::disk('public')->delete($data->image);
+
+        $data->delete();
+
+        return response()->json([
+            'message' => "deleted successfully",
+            'success' => true,
+            'status' => 200
+        ]);
+    }
 }
