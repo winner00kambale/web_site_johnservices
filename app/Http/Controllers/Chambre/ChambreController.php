@@ -152,7 +152,7 @@ class ChambreController extends Controller
             'shot_description_en' => 'required',
             'designation' => 'required',
             'price' => 'required',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
 
         if ($validator->fails()) {
