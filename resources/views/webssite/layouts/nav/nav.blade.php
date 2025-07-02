@@ -1,6 +1,14 @@
 @php
     $route = Route::currentRouteName();
 @endphp
+<style>
+    @media (max-width: 768px) {
+        .logo-wrapper img {
+            max-height: 45px !important;
+            margin-top: -2px !important;
+        }
+    }
+</style>
 <nav class="navbar navbar-expand-lg">
     <div class="container">
         <!-- Logo -->
