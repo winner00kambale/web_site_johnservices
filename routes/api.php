@@ -96,7 +96,7 @@ Route::controller(CategoryController::class)->group(function () {
     Route::get('/getCategoryData', 'getCategoryData');
     Route::post('/createCategory', 'createCategory');
     Route::put('/updateCategory/{id}', 'updateCategory');
-    Route::delete('/deleteCategory', 'deleteCategory');
+    Route::delete('/deleteCategory/{id}', 'deleteCategory');
 });
 
 Route::controller(MenuController::class)->group(function () {
