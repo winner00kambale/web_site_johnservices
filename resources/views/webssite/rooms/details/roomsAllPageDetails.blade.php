@@ -14,9 +14,8 @@
                 <div class="section-title"> CHAMBRE{{ $room->designation }}</div>
             </div>
             <div class="col-md-8">
-                <p class="mb-30">{{ $room->price }}
+                <p class="mb-30">{{ $room->price }} $</p>
                 <p class="mb-30">{{ $room->shot_description_fr }}</p>
-                </p>
                 <div class="row">
                     <div class="col-md-6">
                         <h6>Check-in</h6>
@@ -53,23 +52,9 @@
                         </ul>
                     </div>
                     <div class="col-md-12">
-                        <h6>Special check-in instructions</h6>
-                        <p>Guests will receive an email 5 days before arrival with check-in instructions; front desk
-                            staff will greet guests on arrival For more details, please contact the property using the
-                            information on the booking confirmation.</p>
-                    </div>
-                    <div class="col-md-12">
-                        <h6>Pets</h6>
-                        <p>Pets not allowed</p>
-                    </div>
-                    <div class="col-md-12">
-                        <h6>Children and extra beds</h6>
-                        <p>Children are welcome Kids stay free! Children stay free when using existing bedding; children
-                            may not be eligible for complimentary breakfast Rollaway/extra beds are available for $ 10
-                            per day.</p>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="butn-dark mt-15 mb-30"> <a href="rooms2.html"><span>Check Now</span></a> </div>
+                        <div class="butn-dark mt-15 mb-30"> <a href="https://wa.me/243997163443"
+                                target="_blank"><span>Réservez
+                                    maintenant</span></a> </div>
                     </div>
                 </div>
             </div>
