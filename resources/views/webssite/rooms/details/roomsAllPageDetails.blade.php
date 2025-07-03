@@ -11,11 +11,11 @@
                     <i class="star-rating"></i>
                 </span>
                 <div class="section-subtitle">{{ $phone->Hotel_name }}</div>
-                <div class="section-title">{{ $room->designation }}</div>
+                <div class="section-title"> CHAMBRE{{ $room->designation }}</div>
             </div>
             <div class="col-md-8">
-                <p class="mb-30">{{ $room->shot_description_fr }}</p>
                 <p class="mb-30">{{ $room->price }}
+                <p class="mb-30">{{ $room->shot_description_fr }}</p>
                 </p>
                 <div class="row">
                     <div class="col-md-6">
