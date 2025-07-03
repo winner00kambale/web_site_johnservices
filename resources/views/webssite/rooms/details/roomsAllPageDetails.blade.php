@@ -18,35 +18,35 @@
                 <p class="mb-30">{{ $room->shot_description_fr }}</p>
                 <div class="row">
                     <div class="col-md-6">
-                        <h6>Check-in</h6>
+                        <h6>Arrivée</h6>
                         <ul class="list-unstyled page-list mb-30">
                             <li>
                                 <div class="page-list-icon"> <span class="ti-check"></span> </div>
                                 <div class="page-list-text">
-                                    <p>Check-in from 9:00 AM - anytime</p>
+                                    <p>Arrivée à toute heure</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="page-list-icon"> <span class="ti-check"></span> </div>
                                 <div class="page-list-text">
-                                    <p>Early check-in subject to availability</p>
+                                    <p>Arrivée anticipée sous réserve de disponibilité</p>
                                 </div>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <h6>Check-out</h6>
+                        <h6>Départ</h6>
                         <ul class="list-unstyled page-list mb-30">
                             <li>
                                 <div class="page-list-icon"> <span class="ti-check"></span> </div>
                                 <div class="page-list-text">
-                                    <p>Check-out before noon</p>
+                                    <p>Départ avant midi</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="page-list-icon"> <span class="ti-check"></span> </div>
                                 <div class="page-list-text">
-                                    <p>Express check-out</p>
+                                    <p>Départ express</p>
                                 </div>
                             </li>
                         </ul>
@@ -59,42 +59,31 @@
                 </div>
             </div>
             <div class="col-md-3 offset-md-1">
-                <h6>Amenities</h6>
+                <h6>Équipements</h6>
                 <ul class="list-unstyled page-list mb-30">
                     <li>
                         <div class="page-list-icon"> <span class="flaticon-group"></span> </div>
                         <div class="page-list-text">
-                            <p>1-2 Persons</p>
+                            <p>1 Personne</p>
                         </div>
                     </li>
                     <li>
                         <div class="page-list-icon"> <span class="flaticon-wifi"></span> </div>
                         <div class="page-list-text">
-                            <p>Free Wifi</p>
+                            <p>Wifi gratuit</p>
                         </div>
                     </li>
-                    <li>
-                        <div class="page-list-icon"> <span class="flaticon-clock-1"></span> </div>
-                        <div class="page-list-text">
-                            <p>200 sqft room</p>
-                        </div>
-                    </li>
+
                     <li>
                         <div class="page-list-icon"> <span class="flaticon-breakfast"></span> </div>
                         <div class="page-list-text">
-                            <p>Breakfast</p>
+                            <p>Petit-déjeuner</p>
                         </div>
                     </li>
                     <li>
                         <div class="page-list-icon"> <span class="flaticon-towel"></span> </div>
                         <div class="page-list-text">
-                            <p>Towels</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="page-list-icon"> <span class="flaticon-swimming"></span> </div>
-                        <div class="page-list-text">
-                            <p>Swimming Pool</p>
+                            <p>Serviettes</p>
                         </div>
                     </li>
                 </ul>
