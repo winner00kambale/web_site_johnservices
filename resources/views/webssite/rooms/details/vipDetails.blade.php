@@ -2,7 +2,7 @@
 @section('contenu')
     <header class="header slider">
         <div class="owl-carousel owl-theme">
-            <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/vip/1.jpeg"></div>
+            <div class="text-center item bg-img" data-overlay-dark="3" data-background={{ asset('img/vip/1.jpeg') }}></div>
             <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/vip/2.jpeg"></div>
             <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/vip/3.jpeg"></div>
         </div>
