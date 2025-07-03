@@ -10,16 +10,12 @@
                     <i class="star-rating"></i>
                     <i class="star-rating"></i>
                 </span>
-                <div class="section-subtitle">Luxury Hotel</div>
-                <div class="section-title">Junior Suite</div>
+                <div class="section-subtitle">{{ $phone->Hotel_name }}</div>
+                <div class="section-title">{{ $room->designation }}</div>
             </div>
             <div class="col-md-8">
-                <p class="mb-30">Hotel non lorem ac erat suscipit bibendum nulla facilisi. Sedeuter nunc volutpat miss
-                    sapien vel conseyen turpeutionyer masin libero sevenion vusetion viventa augue sit amet hendrerit
-                    vestibulum. Duisteyerion venenatis lacus gravida eros ut turpis interdum ornare.</p>
-                <p class="mb-30">Interdum et malesu they adamale fames ac anteipsu pimsine faucibus curabitur arcu site
-                    feugiat in tortor in, volutpat sollicitudin libero. Hotel non lorem acer suscipit bibendum vulla
-                    facilisi nedeuter nunc volutpa mollis sapien velet conseyer turpeutionyer masin libero sempe mollis.
+                <p class="mb-30">{{ $room->shot_description_fr }}</p>
+                <p class="mb-30">{{ $room->price }}
                 </p>
                 <div class="row">
                     <div class="col-md-6">
