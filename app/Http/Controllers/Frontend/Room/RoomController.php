@@ -25,4 +25,25 @@ class RoomController extends Controller
         $room = Chambre::find($id);
         return view('webssite.rooms.room-details', compact('phone', 'slideRoom', 'room'));
     }
+
+    public function roomDetails()
+    {
+        $id = request('id');
+        $phone = About::first();
+        $room = Chambre::find($id);
+
+        if (!$room) {
+            abort(404);
+        }
+
+        $designation = $room->designation;
+
+        if ($designation === 'VIP') {
+            return view('webssite.rooms.details.vipDetails', compact('phone', 'room'));
+        } elseif ($designation === 'DELUXE') {
+            return view('webssite.rooms.details.deluxeDetails', compact('phone', 'room'));
+        } else {
+            return view('webssite.rooms.details.standardDetails', compact('phone', 'room'));
+        }
+    }
 }

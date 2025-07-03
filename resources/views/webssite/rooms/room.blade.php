@@ -27,8 +27,17 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="{{ route('room.controller') }}">VOIR PLUS
-                                            <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink">
+                                        <form action="{{ route('detail.room') }}" method="POST"
+                                            style="display: inline;">
+                                            @csrf
+                                            <input type="hidden" name="id" value="{{ $item->id }}">
+                                            <button type="submit" class="btn btn-link p-0 m-0"
+                                                style="text-decoration: none;">
+                                                VOIR PLUS <i class="ti-arrow-right"></i>
+                                            </button>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>

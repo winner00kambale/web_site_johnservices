@@ -30,3 +30,5 @@ Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery.contr
 Route::get('/detail_room/{id}', [RoomController::class, 'getSlideRoom'])->name('detailsRoom.controller');
 
 Route::post('/detail-event', [EventController::class, 'getNew'])->name('detail.event');
+
+Route::post('/roomDetails', [RoomController::class, 'roomDetails'])->name('detail.room');
