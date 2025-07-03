@@ -14,7 +14,7 @@
                 <div class="section-title"> CHAMBRE{{ $room->designation }}</div>
             </div>
             <div class="col-md-8">
-                <p class="mb-30">{{ $room->price }} $</p>
+                <h6 class="mb-30">{{ $room->price }} $</h6>
                 <p class="mb-30">{{ $room->shot_description_fr }}</p>
                 <div class="row">
                     <div class="col-md-6">
