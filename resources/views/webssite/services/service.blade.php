@@ -1,4 +1,4 @@
-<section class="pricing section-padding bg-blck">
+<section class="pricing section-padding" style="background: #222">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
