@@ -1,4 +1,4 @@
-<section class="news section-padding bg-blck">
+<section class="news section-padding" style="background: #222">
     @php
         use Carbon\Carbon;
     @endphp
