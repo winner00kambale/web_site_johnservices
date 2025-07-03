@@ -10,4 +10,5 @@
             <a href="#" data-scroll-nav="1" class=""> <i class="ti-arrow-down"></i> </a>
         </div>
     </header>
+    @include('webssite.rooms.details.roomsAllPageDetails')
 @endsection
