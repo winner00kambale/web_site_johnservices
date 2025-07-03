@@ -8,8 +8,8 @@
                         <p class="footer-about-text">{{ Str::limit($phone->short_description_fr, 250) }}</p>
                         <div class="footer-language"> <i class="lni ti-world"></i>
                             <select onchange="location = this.value;">
-                                <option value="http://duruthemes.com/">English</option>
                                 <option value="http://duruthemes.com/">Francais</option>
+                                <option value="http://duruthemes.com/">English</option>
                             </select>
                         </div>
                     </div>
@@ -54,7 +54,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="footer-bottom-inner">
-                        <p class="footer-bottom-copy-right">© Copyright 2025 by <a href="#">Winner's Tech</a></p>
+                        <p class="footer-bottom-copy-right">© Copyright 2025 by <a href="tel:0891154189">Winner's
+                                Tech</a></p>
                     </div>
                 </div>
             </div>
