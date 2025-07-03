@@ -5,7 +5,9 @@ namespace App\Http\Controllers\Frontend\Room;
 use App\Http\Controllers\Controller;
 use App\Models\About;
 use App\Models\Chambre;
+use App\Models\Partenaire;
 use App\Models\SlideRooms;
+use App\Models\Temoignage;
 use Illuminate\Http\Request;
 
 class RoomController extends Controller
@@ -31,6 +33,8 @@ class RoomController extends Controller
         $id = request('id');
         $phone = About::first();
         $room = Chambre::find($id);
+        $temoignage = Temoignage::inRandomOrder()->get();
+        $partenaire = Partenaire::inRandomOrder()->get();
 
         if (!$room) {
             abort(404);
@@ -39,11 +43,11 @@ class RoomController extends Controller
         $designation = $room->designation;
 
         if ($designation === 'VIP') {
-            return view('webssite.rooms.details.vipDetails', compact('phone', 'room'));
+            return view('webssite.rooms.details.vipDetails', compact('phone', 'room', 'temoignage', 'partenaire'));
         } elseif ($designation === 'DELUXE') {
-            return view('webssite.rooms.details.deluxeDetails', compact('phone', 'room'));
+            return view('webssite.rooms.details.deluxeDetails', compact('phone', 'room', 'temoignage', 'partenaire'));
         } else {
-            return view('webssite.rooms.details.standardDetails', compact('phone', 'room'));
+            return view('webssite.rooms.details.standardDetails', compact('phone', 'room', 'temoignage', 'partenaire'));
         }
     }
 }

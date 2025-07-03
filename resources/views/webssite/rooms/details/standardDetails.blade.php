@@ -14,4 +14,6 @@
         </div>
     </header>
     @include('webssite.rooms.details.roomsAllPageDetails')
+    @include('webssite.temoignage.temoignage')
+    @include('webssite.partennaire.partennaire')
 @endsection
