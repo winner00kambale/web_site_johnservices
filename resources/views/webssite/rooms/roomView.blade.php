@@ -38,7 +38,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <ul>
-                                            <li><i class="fi fi-rr-tv"></i> TV</li>
+                                            <li><i class="flaticon-towel"></i> TV</li>
                                         </ul>
                                     </div>
                                 </div>

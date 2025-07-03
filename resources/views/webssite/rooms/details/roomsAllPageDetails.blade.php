@@ -64,7 +64,7 @@
                     <li>
                         <div class="page-list-icon"> <span class="flaticon-group"></span> </div>
                         <div class="page-list-text">
-                            <p>1 Personne</p>
+                            <p>1-2 Personnes</p>
                         </div>
                     </li>
                     <li>
@@ -82,12 +82,6 @@
                     </li>
                     <li>
                         <div class="page-list-icon"> <span class="flaticon-towel"></span> </div>
-                        <div class="page-list-text">
-                            <p>Serviettes</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="page-list-icon"> <span class="flaticon-tv"></span> </div>
                         <div class="page-list-text">
                             <p>TV</p>
                         </div>
