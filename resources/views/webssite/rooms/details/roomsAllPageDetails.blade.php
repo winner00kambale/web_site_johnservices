@@ -86,6 +86,12 @@
                             <p>Serviettes</p>
                         </div>
                     </li>
+                    <li>
+                        <div class="page-list-icon"> <span class="flaticon-tv"></span> </div>
+                        <div class="page-list-text">
+                            <p>TV</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
