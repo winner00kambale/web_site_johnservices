@@ -1,15 +1,14 @@
 <template>
     <div>
-        <h3>Get in touch</h3>
-        <form method="post" class="contact__form" action="#">
-            <!-- form message -->
+        <div class="col-md-5 mb-30 offset-md-1">
+            <h3>Get in touch</h3>
+            <!-- <form method="post" class="contact__form" action="#">
             <div class="row">
                 <div class="col-12">
                     <div class="alert alert-success contact__msg" style="display: none" role="alert"> Your
                         message was sent successfully. </div>
                 </div>
             </div>
-            <!-- form elements -->
             <div class="row">
                 <div class="col-md-6 form-group">
                     <input name="name" type="text" placeholder="Your Name *" required>
@@ -31,7 +30,8 @@
                     <button type="submit" class="butn-dark2"><span>Envoyez Message</span></button>
                 </div>
             </div>
-        </form>
+        </form> -->
+        </div>
     </div>
 </template>
 <script>
