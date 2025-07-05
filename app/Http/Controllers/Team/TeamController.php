@@ -49,7 +49,7 @@ class TeamController extends Controller
      *    required=true,
      *    description="Enregistrer",
      *    @OA\JsonContent(
-     *       required={"name","title_en","title_fr","facebook","email","twitter","linkedin","image"},
+     *       required={"name","title_en","title_fr","facebook","email","twitter","linkedin","whatsapp","image"},
      *       @OA\Property(property="name", type="string", format="text",example="winner kambale"),
      *       @OA\Property(property="title_en", type="string", format="text",example="rdc"),
      *       @OA\Property(property="title_fr", type="string", format="text",example="rdc"),
@@ -57,6 +57,7 @@ class TeamController extends Controller
      *       @OA\Property(property="email", type="string", format="text",example="rdc"),
      *       @OA\Property(property="twitter", type="string", format="text",example="winner kambale"),
      *       @OA\Property(property="linkedin", type="string", format="text",example="rdc"),
+     *       @OA\Property(property="whatsapp", type="string", format="text",example="rdc"),
      *       @OA\Property(property="image", type="string", format="text",example="rdc")
      *    ),
      * ),
@@ -80,6 +81,7 @@ class TeamController extends Controller
             'email' => 'nullable|email',
             'twitter' => 'nullable',
             'linkedin' => 'nullable',
+            'whatsapp' => 'nullable',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
         if ($validator->fails()) {
@@ -98,6 +100,7 @@ class TeamController extends Controller
             'email' => $request->email,
             'twitter' => $request->twitter,
             'linkedin' => $request->linkedin,
+            'whatsapp' => $request->whatsapp,
             'image' => $path
         ]);
         $result = [
@@ -133,6 +136,7 @@ class TeamController extends Controller
      *       @OA\Property(property="email", type="string", format="text", example="winner@gmail.com"),
      *       @OA\Property(property="twitter", type="string", format="text", example="winner kambale"),
      *       @OA\Property(property="linkedin", type="string", format="text", example="rdc"),
+     *       @OA\Property(property="whatsapp", type="string", format="text", example="rdc"),
      *       @OA\Property(property="image", type="string", format="text", example="rdc"),
      *    ),
      * ),
@@ -166,6 +170,7 @@ class TeamController extends Controller
             'email' => 'nullable|email',
             'twitter' => 'nullable',
             'linkedin' => 'nullable',
+            'whatsapp' => 'required',
             'image' => 'nullable',
         ]);
 
@@ -195,6 +200,7 @@ class TeamController extends Controller
             'email' => $request->email,
             'twitter' => $request->twitter,
             'linkedin' => $request->linkedin,
+            'whatsapp' => $request->whatsapp,
             'image' => $path
         ]);
 

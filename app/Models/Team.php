@@ -16,6 +16,7 @@ class Team extends Model
         'twitter',
         'email',
         'linkedin',
-        'image'
+        'image',
+        'whatsapp'
     ];
 }

@@ -19,6 +19,7 @@ return new class extends Migration {
             $table->string('twitter')->nullable();
             $table->string('linkedin')->nullable();
             $table->string('facebook')->nullable();
+            $table->string('whatsapp')->nullable();
             $table->text('image')->nullable();
             $table->timestamps();
         });
