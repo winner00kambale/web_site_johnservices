@@ -10,4 +10,7 @@
     <link rel="stylesheet" href="{{ asset('css/plugins.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/image.css') }}">
+    {{-- @vite(['resources/js/app.js', 'resources/css/app.css']) --}}
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
 </head>
