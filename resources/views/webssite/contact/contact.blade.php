@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="col-md-5 mb-30 offset-md-1" id="app">
-
+                <contact-form></contact-form>
             </div>
         </div>
         <!-- Map Section -->
