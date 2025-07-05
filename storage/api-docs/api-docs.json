@@ -43,7 +43,6 @@
                                     "title_fr",
                                     "short_description_en",
                                     "short_description_fr",
-                                    "adress_en",
                                     "adress_fr",
                                     "facebook",
                                     "instagram",
@@ -80,11 +79,6 @@
                                         "type": "string",
                                         "format": "text",
                                         "example": "rdc"
-                                    },
-                                    "adress_en": {
-                                        "type": "string",
-                                        "format": "text",
-                                        "example": "mpesa"
                                     },
                                     "adress_fr": {
                                         "type": "string",
@@ -188,7 +182,6 @@
                                     "title_fr",
                                     "short_description_en",
                                     "short_description_fr",
-                                    "adress_en",
                                     "adress_fr",
                                     "facebook",
                                     "instagram",
@@ -225,11 +218,6 @@
                                         "type": "string",
                                         "format": "text",
                                         "example": "rdc"
-                                    },
-                                    "adress_en": {
-                                        "type": "string",
-                                        "format": "text",
-                                        "example": "mpesa"
                                     },
                                     "adress_fr": {
                                         "type": "string",
@@ -927,7 +915,7 @@
                             "schema": {
                                 "required": [
                                     "name",
-                                    "address",
+                                    "subject",
                                     "message",
                                     "email",
                                     "phone"
@@ -938,7 +926,7 @@
                                         "format": "text",
                                         "example": "winner kambale"
                                     },
-                                    "address": {
+                                    "subject": {
                                         "type": "string",
                                         "format": "text",
                                         "example": "rdc"
@@ -947,11 +935,6 @@
                                         "type": "string",
                                         "format": "text",
                                         "example": "mpesa"
-                                    },
-                                    "phone": {
-                                        "type": "string",
-                                        "format": "text",
-                                        "example": "0997604471"
                                     },
                                     "email": {
                                         "type": "string",
@@ -3404,6 +3387,7 @@
                                     "email",
                                     "twitter",
                                     "linkedin",
+                                    "whatsapp",
                                     "image"
                                 ],
                                 "properties": {
@@ -3438,6 +3422,11 @@
                                         "example": "winner kambale"
                                     },
                                     "linkedin": {
+                                        "type": "string",
+                                        "format": "text",
+                                        "example": "rdc"
+                                    },
+                                    "whatsapp": {
                                         "type": "string",
                                         "format": "text",
                                         "example": "rdc"
@@ -3529,6 +3518,11 @@
                                         "example": "winner kambale"
                                     },
                                     "linkedin": {
+                                        "type": "string",
+                                        "format": "text",
+                                        "example": "rdc"
+                                    },
+                                    "whatsapp": {
                                         "type": "string",
                                         "format": "text",
                                         "example": "rdc"
@@ -3683,8 +3677,7 @@
                                     "fonction_en",
                                     "fonction_fr",
                                     "description_en",
-                                    "description_fr",
-                                    "image"
+                                    "description_fr"
                                 ],
                                 "properties": {
                                     "name": {
@@ -3711,11 +3704,6 @@
                                         "type": "string",
                                         "format": "text",
                                         "example": "winner@gmail.com"
-                                    },
-                                    "image": {
-                                        "type": "string",
-                                        "format": "text",
-                                        "example": "winner"
                                     }
                                 },
                                 "type": "object"
@@ -3767,8 +3755,7 @@
                                     "fonction_en",
                                     "fonction_fr",
                                     "description_en",
-                                    "description_fr",
-                                    "image"
+                                    "description_fr"
                                 ],
                                 "properties": {
                                     "name": {
@@ -3795,11 +3782,6 @@
                                         "type": "string",
                                         "format": "text",
                                         "example": "winner@gmail.com"
-                                    },
-                                    "image": {
-                                        "type": "string",
-                                        "format": "text",
-                                        "example": "winner"
                                     }
                                 },
                                 "type": "object"
