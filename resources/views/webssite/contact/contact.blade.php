@@ -26,6 +26,8 @@
             <div class="col-md-5 mb-30 offset-md-1" id="app">
 
             </div>
+
+            @vite(['resources/css/app.css', 'resources/js/app.js'])
         </div>
         <!-- Map Section -->
         <div class="row">
