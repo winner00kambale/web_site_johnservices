@@ -23,7 +23,7 @@
                                         <li><i class="flaticon-bed"></i></li>
                                         <li><i class="flaticon-bath"></i></li>
                                         <li><i class="flaticon-breakfast"></i></li>
-                                        <li><i class="flaticon-towel"></i></li>
+                                        <li><i class="fa-solid fa-tv"></i></li>
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-end">

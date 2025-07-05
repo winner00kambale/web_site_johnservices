@@ -17,10 +17,10 @@
                             <p>{{ $item->title_fr }}</p>
                             <div class="social valign">
                                 <div class="full-width">
+                                    <a href="{{ $item->whatsapp }}" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <a href="{{ $item->twitter }}" target="_blank"><i class="ti-twitter"></i></a>
                                     <a href="{{ $item->facebook }} " target="_blank"><i class="ti-facebook"></i></a>
                                     <a href="{{ $item->linkedin }}" target="_blank"><i class="ti-linkedin"></i></a>
-                                    <a href="{{ $item->whatsapp }}" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <p>{{ $item->email }}</p>
                                 </div>
                             </div>
