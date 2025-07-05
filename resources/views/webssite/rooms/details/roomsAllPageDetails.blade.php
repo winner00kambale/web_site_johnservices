@@ -81,7 +81,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="page-list-icon"> <span class="flaticon-towel"></span> </div>
+                        <div class="page-list-icon"> <span class="fa-solid fa-tv"></span> </div>
                         <div class="page-list-text">
                             <p>TV</p>
                         </div>
