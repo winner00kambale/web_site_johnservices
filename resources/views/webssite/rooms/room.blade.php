@@ -34,7 +34,7 @@
                                             <input type="hidden" name="id" value="{{ $item->id }}">
                                             <button type="submit" class="btn btn-link p-0 m-0"
                                                 style="text-decoration: none;">
-                                                VOIR PLUS <i class="ti-arrow-right"></i>
+                                                <span>VOIR PLUS</span><i class="ti-arrow-right"></i>
                                             </button>
                                         </form>
                                     </div>
