@@ -11,7 +11,7 @@
         </div>
         <div class="row">
             <div class="text-center col-md-12">
-                <a class="vid" href="https://vm.tiktok.com/ZMSVCWsKK">
+                <a class="vid" target="_blank" href="https://vm.tiktok.com/ZMSVCWsKK">
                     <div class="vid-butn">
                         <span class="icon">
                             <i class="ti-control-play"></i>
