@@ -20,7 +20,7 @@
                                     <a href="{{ $item->twitter }}" target="_blank"><i class="ti-twitter"></i></a>
                                     <a href="{{ $item->facebook }} " target="_blank"><i class="ti-facebook"></i></a>
                                     <a href="{{ $item->linkedin }}" target="_blank"><i class="ti-linkedin"></i></a>
-                                    <a href="{{ $item->whatsapp }}" target="_blank"><i class="ti-whatsapp"></i></a>
+                                    <a href="{{ $item->whatsapp }}" target="_blank"><i class="bi bi-whatsapp"></i></a>
                                     <p>{{ $item->email }}</p>
                                 </div>
                             </div>
